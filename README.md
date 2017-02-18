@@ -43,6 +43,11 @@ basic functionality:
 * covered: green indicator
 * not covered: red indicator
 
+## Credits
+Credits due where credit's due
+* Adding a convenient button in the status bar: [Bradley Meck](https://github.com/bmeck)
+* using svg for gutter icons: [Matt Martz](https://github.com/entrocode)
+
 
 
 
