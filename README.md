@@ -2,7 +2,7 @@
 
 Live code coverage indication for Typescript files in VSCode from lcov.info files.
 
-See 
+See [bma-coverage-sample](https://github.com/BrunoMartens/bma-coverage-sample) for a setup with karma + mocha + chai
 
 ## Features
 
