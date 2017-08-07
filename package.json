@@ -4,6 +4,7 @@
   "description": "simple typescript code coverage from lcov.info",
   "version": "0.0.1",
   "publisher": "brunomartens",
+  "license":"WTFPL",
   "engines": {
     "vscode": "^1.5.0"
   },
