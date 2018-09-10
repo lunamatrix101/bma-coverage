@@ -27,17 +27,28 @@
   ],
   "main": "./out/src/extension",
   "contributes": {
-    "commands": [
-      {
-        "command": "ShowCoverage",
-        "title": "Show Code Coverage"
-      },
-      {
-        "command": "HideCoverage",
-        "title": "Hide Code Coverage"
-      }
-    ]
-  },
+		"commands": [
+			{
+				"command": "ShowCoverage",
+				"title": "Show Code Coverage"
+			},
+			{
+				"command": "HideCoverage",
+				"title": "Hide Code Coverage"
+			}
+		],
+    "configuration": {
+        "type": "object",
+        "title": "bma-coverage extension",
+        "properties": {
+            "bma-coverage": {
+                "type": "object",
+                "default": "",
+                "description": "Add Path to lcov.info"
+            }
+        }
+    }
+	},
   "scripts": {
     "vscode:prepublish": "tsc -p ./",
     "compile": "tsc -watch -p ./",
